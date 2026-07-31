@@ -1,0 +1,228 @@
+{
+  "part1": [
+    {
+      "id": "p1-001",
+      "topic": "External Financial Reporting Decisions",
+      "question": "A company purchases a machine for $120,000 with an estimated useful life of 10 years and no salvage value. Under straight-line depreciation, what is the carrying value of the machine at the end of year 4?",
+      "options": ["$48,000", "$72,000", "$84,000", "$96,000"],
+      "correctIndex": 1,
+      "explanation": "Annual depreciation = $120,000 / 10 = $12,000. After 4 years, accumulated depreciation = $48,000. Carrying value = $120,000 - $48,000 = $72,000."
+    },
+    {
+      "id": "p1-002",
+      "topic": "External Financial Reporting Decisions",
+      "question": "Under accrual accounting, revenue is generally recognized when:",
+      "options": [
+        "Cash is received from the customer",
+        "The invoice is printed and mailed",
+        "The performance obligation is satisfied by transferring control of goods or services",
+        "The order is first placed by the customer"
+      ],
+      "correctIndex": 2,
+      "explanation": "Revenue recognition under accrual accounting (and ASC 606) requires that control of the promised goods or services has transferred to the customer, regardless of when cash changes hands."
+    },
+    {
+      "id": "p1-003",
+      "topic": "Planning, Budgeting, and Forecasting",
+      "question": "A company expects sales of 10,000 units next quarter. Desired ending inventory is 1,200 units and beginning inventory is 900 units. How many units should be produced?",
+      "options": ["9,700", "10,000", "10,300", "12,100"],
+      "correctIndex": 2,
+      "explanation": "Production budget = Budgeted sales + Desired ending inventory - Beginning inventory = 10,000 + 1,200 - 900 = 10,300 units."
+    },
+    {
+      "id": "p1-004",
+      "topic": "Planning, Budgeting, and Forecasting",
+      "question": "Which budgeting approach requires managers to justify every expense from a zero base each period, rather than adjusting the prior year's budget?",
+      "options": ["Incremental budgeting", "Zero-based budgeting", "Rolling budgeting", "Static budgeting"],
+      "correctIndex": 1,
+      "explanation": "Zero-based budgeting starts every budget cycle from a base of zero, requiring justification for all expenditures rather than simply adjusting the previous period's figures."
+    },
+    {
+      "id": "p1-005",
+      "topic": "Performance Management",
+      "question": "A division has operating income of $180,000 and average invested capital of $1,200,000. If the company's required rate of return is 12%, what is the division's residual income?",
+      "options": ["$36,000", "$40,800", "$144,000", "$180,000"],
+      "correctIndex": 1,
+      "explanation": "Residual income = Operating income - (Invested capital x Required rate of return) = $180,000 - ($1,200,000 x 12%) = $180,000 - $144,000 = $36,000."
+    },
+    {
+      "id": "p1-006",
+      "topic": "Performance Management",
+      "question": "In a balanced scorecard, which perspective is primarily concerned with employee training, systems capability, and organizational culture?",
+      "options": ["Financial perspective", "Customer perspective", "Internal business process perspective", "Learning and growth perspective"],
+      "correctIndex": 3,
+      "explanation": "The learning and growth perspective focuses on the infrastructure needed for long-term growth, including employee capabilities, information systems, and culture."
+    },
+    {
+      "id": "p1-007",
+      "topic": "Cost Management",
+      "question": "A company uses activity-based costing. Setup costs of $60,000 are driven by the number of production runs. If there are 15 production runs in a period, what is the setup cost allocated per unit for a batch of 200 units produced in one run?",
+      "options": ["$4.00 per unit", "$20.00 per unit", "$300.00 per unit", "$4,000.00 per unit"],
+      "correctIndex": 1,
+      "explanation": "Cost per production run = $60,000 / 15 = $4,000. Allocated to a 200-unit batch: $4,000 / 200 = $20.00 per unit."
+    },
+    {
+      "id": "p1-008",
+      "topic": "Cost Management",
+      "question": "A product has a selling price of $50, variable cost of $30 per unit, and total fixed costs of $80,000. What is the breakeven point in units?",
+      "options": ["1,600 units", "2,000 units", "4,000 units", "2,667 units"],
+      "correctIndex": 2,
+      "explanation": "Contribution margin per unit = $50 - $30 = $20. Breakeven units = Fixed costs / Contribution margin = $80,000 / $20 = 4,000 units."
+    },
+    {
+      "id": "p1-009",
+      "topic": "Internal Controls",
+      "question": "Which of the following best describes the purpose of segregation of duties as an internal control?",
+      "options": [
+        "To reduce the total number of employees needed in the accounting department",
+        "To ensure no single individual controls all phases of a transaction, reducing the risk of error or fraud",
+        "To speed up the month-end closing process",
+        "To eliminate the need for an external audit"
+      ],
+      "correctIndex": 1,
+      "explanation": "Segregation of duties separates authorization, custody, and recordkeeping functions among different people so that no one person can both perpetrate and conceal an error or fraud."
+    },
+    {
+      "id": "p1-010",
+      "topic": "Internal Controls",
+      "question": "Under the COSO Internal Control Integrated Framework, which component involves the organization's overall attitude, awareness, and actions concerning internal controls?",
+      "options": ["Control environment", "Risk assessment", "Information and communication", "Monitoring activities"],
+      "correctIndex": 0,
+      "explanation": "The control environment is the foundation of the COSO framework, reflecting the tone at the top and the organization's overall commitment to integrity and ethical values."
+    },
+    {
+      "id": "p1-011",
+      "topic": "Technology and Analytics",
+      "question": "In data analytics, which term refers to using historical data to identify patterns and predict future outcomes, such as forecasting next quarter's sales?",
+      "options": ["Descriptive analytics", "Diagnostic analytics", "Predictive analytics", "Prescriptive analytics"],
+      "correctIndex": 2,
+      "explanation": "Predictive analytics uses historical data, statistical models, and trends to forecast what is likely to happen in the future."
+    },
+    {
+      "id": "p1-012",
+      "topic": "Technology and Analytics",
+      "question": "A company wants to store large volumes of unstructured and structured data in its raw form for future analysis, without first defining a rigid schema. This is best described as a:",
+      "options": ["Relational database", "Data warehouse", "Data lake", "Spreadsheet ledger"],
+      "correctIndex": 2,
+      "explanation": "A data lake stores raw data in its native format, structured or unstructured, allowing flexible analysis later, unlike a data warehouse which requires structured, pre-defined schemas."
+    }
+  ],
+  "part2": [
+    {
+      "id": "p2-001",
+      "topic": "Financial Statement Analysis",
+      "question": "A company has current assets of $450,000 and current liabilities of $300,000. If inventory is $150,000, what is the quick ratio?",
+      "options": ["0.50", "1.00", "1.50", "2.00"],
+      "correctIndex": 1,
+      "explanation": "Quick ratio = (Current assets - Inventory) / Current liabilities = ($450,000 - $150,000) / $300,000 = $300,000 / $300,000 = 1.00."
+    },
+    {
+      "id": "p2-002",
+      "topic": "Financial Statement Analysis",
+      "question": "A company's net income was $200,000 and it had 100,000 weighted average common shares outstanding with no preferred dividends. What is basic earnings per share?",
+      "options": ["$0.50", "$1.00", "$2.00", "$20.00"],
+      "correctIndex": 2,
+      "explanation": "Basic EPS = Net income available to common shareholders / Weighted average shares outstanding = $200,000 / 100,000 = $2.00 per share."
+    },
+    {
+      "id": "p2-003",
+      "topic": "Corporate Finance",
+      "question": "A firm has a debt-to-equity ratio of 0.5, a cost of debt of 6%, and a cost of equity of 12%. Ignoring taxes, what is the weighted average cost of capital (WACC)?",
+      "options": ["8%", "9%", "10%", "12%"],
+      "correctIndex": 1,
+      "explanation": "A debt-to-equity ratio of 0.5 means weights are 1/3 debt and 2/3 equity. WACC = (1/3 x 6%) + (2/3 x 12%) = 2% + 8% = 10%."
+    },
+    {
+      "id": "p2-004",
+      "topic": "Corporate Finance",
+      "question": "Which source of long-term financing typically has the lowest explicit cost to the company but dilutes existing ownership?",
+      "options": ["Bank term loans", "Corporate bonds", "Common stock issuance", "Trade credit"],
+      "correctIndex": 2,
+      "explanation": "Issuing common stock does not require fixed interest payments, but it dilutes ownership and voting control among a larger number of shareholders."
+    },
+    {
+      "id": "p2-005",
+      "topic": "Decision Analysis",
+      "question": "A machine costs $200,000 and generates equal annual cash inflows of $50,000. What is the simple payback period, ignoring the time value of money?",
+      "options": ["2 years", "3 years", "4 years", "5 years"],
+      "correctIndex": 2,
+      "explanation": "Payback period = Initial investment / Annual cash inflow = $200,000 / $50,000 = 4 years."
+    },
+    {
+      "id": "p2-006",
+      "topic": "Decision Analysis",
+      "question": "A project requires an initial investment of $100,000 and is expected to generate a net present value (NPV) of $15,000 at the company's required rate of return. What does this indicate?",
+      "options": [
+        "The project should be rejected because it does not return the initial investment",
+        "The project earns exactly the required rate of return and no more",
+        "The project is expected to earn more than the required rate of return and adds value to the firm",
+        "The internal rate of return equals zero"
+      ],
+      "correctIndex": 2,
+      "explanation": "A positive NPV means the project's discounted cash inflows exceed the initial investment at the required rate of return, indicating the project is expected to add value."
+    },
+    {
+      "id": "p2-007",
+      "topic": "Risk Management",
+      "question": "A company enters into a forward contract to sell foreign currency it will receive in 90 days at a fixed exchange rate. This is primarily an example of managing which type of risk?",
+      "options": ["Credit risk", "Foreign exchange transaction risk", "Operational risk", "Liquidity risk"],
+      "correctIndex": 1,
+      "explanation": "A forward contract locking in an exchange rate for a future foreign currency receipt is a common hedge against foreign exchange transaction risk."
+    },
+    {
+      "id": "p2-008",
+      "topic": "Risk Management",
+      "question": "Which of the following best describes 'enterprise risk management' (ERM) as opposed to managing risks in isolated departmental silos?",
+      "options": [
+        "A framework that only addresses insurance and hazard risks",
+        "A coordinated, organization-wide approach to identifying, assessing, and responding to risks that could affect strategic objectives",
+        "A method used exclusively by the internal audit department",
+        "A system limited to financial market risks such as interest rate risk"
+      ],
+      "correctIndex": 1,
+      "explanation": "ERM takes a holistic, organization-wide view of risk, integrating strategic, operational, financial, and compliance risks rather than managing them separately by department."
+    },
+    {
+      "id": "p2-009",
+      "topic": "Investment Decisions",
+      "question": "An investor's portfolio consists of two assets with a correlation coefficient of -1. What effect does this have on the portfolio's overall risk when combined in the right proportions?",
+      "options": [
+        "It maximizes portfolio risk",
+        "It has no effect on portfolio risk",
+        "It can potentially eliminate portfolio risk entirely",
+        "It doubles the portfolio's standard deviation"
+      ],
+      "correctIndex": 2,
+      "explanation": "A correlation coefficient of -1 means the two assets move perfectly opposite to one another, so in the correct proportions their combined price movements can offset each other, potentially eliminating portfolio risk."
+    },
+    {
+      "id": "p2-010",
+      "topic": "Investment Decisions",
+      "question": "According to the Capital Asset Pricing Model (CAPM), if the risk-free rate is 3%, the market return is 9%, and a stock's beta is 1.5, what is the stock's required rate of return?",
+      "options": ["9%", "12%", "13.5%", "15%"],
+      "correctIndex": 1,
+      "explanation": "CAPM: Required return = Risk-free rate + Beta x (Market return - Risk-free rate) = 3% + 1.5 x (9% - 3%) = 3% + 9% = 12%."
+    },
+    {
+      "id": "p2-011",
+      "topic": "Professional Ethics",
+      "question": "A management accountant discovers that a colleague is manipulating inventory figures to inflate reported profit. According to the IMA Statement of Ethical Professional Practice, what should the accountant do first?",
+      "options": [
+        "Immediately report the matter to the media",
+        "Ignore it since it is not their department",
+        "Follow the organization's established policies for resolving ethical conflicts, escalating internally as needed",
+        "Resign immediately without raising the concern"
+      ],
+      "correctIndex": 2,
+      "explanation": "The IMA Statement of Ethical Professional Practice generally directs members to follow established internal policies for resolving ethical conflicts before considering more drastic external actions."
+    },
+    {
+      "id": "p2-012",
+      "topic": "Professional Ethics",
+      "question": "Which of the following is one of the four overarching ethical principles in the IMA Statement of Ethical Professional Practice?",
+      "options": ["Profitability", "Confidentiality", "Marketability", "Liquidity"],
+      "correctIndex": 1,
+      "explanation": "The IMA's four overarching ethical principles are Honesty, Fairness, Objectivity, and Responsibility, and its standards of conduct include Competence, Confidentiality, Integrity, and Credibility."
+    }
+  ]
+}
