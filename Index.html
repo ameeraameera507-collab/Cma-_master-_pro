@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CMA Master Pro | CMA USA Exam Preparation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== HEADER / NAV ===== -->
+<header class="site-header">
+  <div class="header-inner">
+    <button class="brand" data-nav="home" aria-label="CMA Master Pro home">
+      <span class="brand-mark">CMA</span>
+      <span class="brand-word">Master&nbsp;Pro</span>
+    </button>
+    <nav class="main-nav" aria-label="Primary">
+      <button class="nav-link" data-nav="home">Home</button>
+      <button class="nav-link" data-nav="part1">Part 1</button>
+      <button class="nav-link" data-nav="part2">Part 2</button>
+      <button class="nav-link" data-nav="practice">Practice</button>
+    </nav>
+    <button class="nav-cta" data-nav="practice">Start Practicing</button>
+  </div>
+</header>
+
+<main id="app">
+
+  <!-- ===== HOME ===== -->
+  <section class="view" id="view-home" data-view="home">
+
+    <section class="hero">
+      <div class="hero-ledger" aria-hidden="true">
+        <div class="ledger-row ledger-head">
+          <span>Ref.</span><span>Particulars</span><span>Debit</span><span>Credit</span>
+        </div>
+        <div class="ledger-row"><span>01</span><span>Opening Balance — Concepts You Know</span><span>—</span><span></span></div>
+        <div class="ledger-row"><span>02</span><span>Study Hours Invested</span><span>—</span><span></span></div>
+        <div class="ledger-row ledger-row-final"><span>03</span><span>Closing Balance — CMA, Certified</span><span></span><span>Carried&nbsp;Forward</span></div>
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">A study ledger for future CMAs</p>
+        <h1>Balance the books.<br>Then pass the exam.</h1>
+        <p class="hero-sub">CMA Master Pro is a clean, no-nonsense workspace for the CMA USA exam — built for complete beginners. Work through Part&nbsp;1 and Part&nbsp;2 topic by topic, then post your knowledge to the practice ledger with timed, explained multiple‑choice questions.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" data-nav="practice">Open the practice ledger</button>
+          <button class="btn btn-ghost" data-nav="part1">Browse Part 1 topics</button>
+        </div>
+        <dl class="hero-stats">
+          <div><dt>2</dt><dd>Exam parts covered</dd></div>
+          <div><dt id="stat-questions">—</dt><dd>Original practice questions</dd></div>
+          <div><dt>100%</dt><dd>Original, plain‑English explanations</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section-block">
+      <p class="eyebrow">Why start here</p>
+      <h2>Built for someone opening a CMA book for the first time</h2>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-index">A</span>
+          <h3>Plain-English topic guides</h3>
+          <p>Every syllabus topic is introduced the way you'd explain it to a colleague — no jargon left unexplained.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-index">B</span>
+          <h3>Practice with real feedback</h3>
+          <p>Answer, submit, and immediately see whether you were right — with a worked explanation, not just a checkmark.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-index">C</span>
+          <h3>Exam-condition timer</h3>
+          <p>Switch on the exam timer to rehearse working under time pressure before test day arrives.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-index">D</span>
+          <h3>Instant scoring</h3>
+          <p>Finish a set and get your score, your accuracy by topic, and a clear list of what to revisit.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-block parts-overview">
+      <p class="eyebrow">Two parts, one certification</p>
+      <h2>Choose where to begin</h2>
+      <div class="parts-grid">
+        <article class="part-card">
+          <div class="part-card-head">
+            <span class="part-tag">Part 1</span>
+            <h3>Financial Planning, Performance &amp; Analytics</h3>
+          </div>
+          <p>External reporting, budgeting, performance management, cost management, internal controls, and technology &amp; analytics.</p>
+          <button class="btn btn-outline" data-nav="part1">View Part 1 topics</button>
+        </article>
+        <article class="part-card">
+          <div class="part-card-head">
+            <span class="part-tag part-tag-alt">Part 2</span>
+            <h3>Strategic Financial Management</h3>
+          </div>
+          <p>Financial statement analysis, corporate finance, decision analysis, risk management, investment decisions, and professional ethics.</p>
+          <button class="btn btn-outline" data-nav="part2">View Part 2 topics</button>
+        </article>
+      </div>
+    </section>
+
+  </section>
+
+  <!-- ===== PART 1 ===== -->
+  <section class="view" id="view-part1" data-view="part1">
+    <section class="part-hero">
+      <span class="part-tag">Part 1</span>
+      <h1>Financial Planning, Performance &amp; Analytics</h1>
+      <p>Part 1 covers how a management accountant plans, measures, and reports on the financial performance of a business — from external reporting rules through to modern data analytics.</p>
+      <button class="btn btn-primary" data-nav="practice" data-preset-part="part1">Practice Part 1 questions</button>
+    </section>
+    <section class="topic-ledger">
+      <div class="ledger-row ledger-head">
+        <span>Topic</span><span>What it covers</span><span>Weight</span>
+      </div>
+      <div class="ledger-row">
+        <span>External Financial Reporting Decisions</span>
+        <span>Financial statements, recognition and measurement of assets and liabilities, and the standards behind them.</span>
+        <span>15%</span>
+      </div>
+      <div class="ledger-row">
+        <span>Planning, Budgeting &amp; Forecasting</span>
+        <span>Building operating budgets, forecasting techniques, and analyzing budget-to-actual variances.</span>
+        <span>20%</span>
+      </div>
+      <div class="ledger-row">
+        <span>Performance Management</span>
+        <span>Responsibility centers, variance analysis, balanced scorecards, and performance measures like ROI and residual income.</span>
+        <span>20%</span>
+      </div>
+      <div class="ledger-row">
+        <span>Cost Management</span>
+        <span>Costing systems, cost behavior, activity-based costing, and cost-volume-profit analysis.</span>
+        <span>15%</span>
+      </div>
+      <div class="ledger-row">
+        <span>Internal Controls</span>
+        <span>Control frameworks such as COSO, risk of fraud and error, and the design of a sound control environment.</span>
+        <span>15%</span>
+      </div>
+      <div class="ledger-row">
+        <span>Technology &amp; Analytics</span>
+        <span>Data governance, descriptive vs. predictive analytics, and how technology supports decision-making.</span>
+        <span>15%</span>
+      </div>
+    </section>
+  </section>
+
+  <!-- ===== PART 2 ===== -->
+  <section class="view" id="view-part2" data-view="part2">
+    <section class="part-hero part-hero-alt">
+      <span class="part-tag part-tag-alt">Part 2</span>
+      <h1>Strategic Financial Management</h1>
+      <p>Part 2 moves from internal operations to strategic decisions — reading financial statements, raising capital, evaluating investments, managing risk, and acting ethically while doing it.</p>
+      <button class="btn btn-primary" data-nav="practice" data-preset-part="part2">Practice Part 2 questions</button>
+    </section>
+    <section class="topic-ledger">
+      <div class="ledger-row ledger-head">
+        <span>Topic</span><span>What it covers</span><span>Weight</span>
+      </div>
+      <div class="ledger-row">
+        <span>Financial Statement Analysis</span>
+        <span>Ratio analysis, liquidity, profitability, and reading between the lines of a company's reported numbers.</span>
+        <span>20%</span>
+      </div>
+      <div class="ledger-row">
+        <span>Corporate Finance</span>
+        <span>Sources of capital, cost of capital, capital structure, and how firms raise and manage money.</span>
+        <span>20%</span>
+      </div>
+      <div class="ledger-row">
+        <span>Decision Analysis</span>
+        <span>Payback period, net present value, relevant costs, and other tools for evaluating business decisions.</span>
+        <span>25%</span>
+      </div>
+      <div class="ledger-row">
+        <span>Risk Management</span>
+        <span>Identifying, measuring, and hedging enterprise, market, and operational risks.</span>
+        <span>10%</span>
+      </div>
+      <div class="ledger-row">
+        <span>Investment Decisions</span>
+        <span>Capital budgeting, portfolio risk and return, and valuation of securities.</span>
+        <span>15%</span>
+      </div>
+      <div class="ledger-row">
+        <span>Professional Ethics</span>
+        <span>The IMA Statement of Ethical Professional Practice and resolving ethical conflicts at work.</span>
+        <span>10%</span>
+      </div>
+    </section>
+  </section>
+
+  <!-- ===== PRACTICE ===== -->
+  <section class="view" id="view-practice" data-view="practice">
+
+    <!-- Setup screen -->
+    <section class="practice-setup" id="practice-setup">
+      <p class="eyebrow">Practice ledger</p>
+      <h1>Set up your practice session</h1>
+      <p class="setup-sub">Pick a part, choose how many questions, and decide whether to study under the timer.</p>
+
+      <div class="setup-grid">
+        <div class="setup-field">
+          <span class="setup-label">Which part?</span>
+          <div class="pill-group" id="part-select">
+            <button class="pill active" data-value="both">Both parts</button>
+            <button class="pill" data-value="part1">Part 1 only</button>
+            <button class="pill" data-value="part2">Part 2 only</button>
+          </div>
+        </div>
+
+        <div class="setup-field">
+          <span class="setup-label">How many questions?</span>
+          <div class="pill-group" id="count-select">
+            <button class="pill" data-value="5">5</button>
+            <button class="pill active" data-value="10">10</button>
+            <button class="pill" data-value="20">20</button>
+            <button class="pill" data-value="all">All available</button>
+          </div>
+        </div>
+
+        <div class="setup-field">
+          <span class="setup-label">Exam timer</span>
+          <div class="pill-group" id="timer-select">
+            <button class="pill" data-value="0">Off — untimed</button>
+            <button class="pill active" data-value="60">1.5 min / question</button>
+            <button class="pill" data-value="120">3 min / question</button>
+          </div>
+        </div>
+      </div>
+
+      <button class="btn btn-primary btn-large" id="start-session-btn">Begin practice session</button>
+      <p class="setup-note" id="setup-note"></p>
+    </section>
+
+    <!-- Active quiz screen -->
+    <section class="quiz-screen" id="quiz-screen" hidden>
+      <div class="quiz-topbar">
+        <div class="quiz-progress">
+          <span id="quiz-progress-label">Question 1 of 10</span>
+          <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+        </div>
+        <div class="quiz-timer" id="quiz-timer" hidden>
+          <span class="timer-label">Time left</span>
+          <span class="timer-value" id="timer-value">00:00</span>
+        </div>
+      </div>
+
+      <article class="question-card">
+        <div class="question-meta">
+          <span class="question-part-tag" id="question-part-tag">Part 1</span>
+          <span class="question-topic" id="question-topic">Topic</span>
+        </div>
+        <h2 class="question-text" id="question-text">Question text goes here.</h2>
+        <div class="options-list" id="options-list"><!-- injected by JS --></div>
+
+        <div class="feedback-box" id="feedback-box" hidden>
+          <p class="feedback-verdict" id="feedback-verdict"></p>
+          <p class="feedback-explanation" id="feedback-explanation"></p>
+        </div>
+
+        <div class="quiz-actions">
+          <button class="btn btn-primary" id="submit-btn">Submit answer</button>
+          <button class="btn btn-primary" id="next-btn" hidden>Next question</button>
+        </div>
+      </article>
+    </section>
+
+    <!-- Results screen -->
+    <section class="results-screen" id="results-screen" hidden>
+      <p class="eyebrow">Session closed</p>
+      <h1>Your ledger balance</h1>
+      <div class="score-display">
+        <span class="score-number" id="score-number">0</span>
+        <span class="score-of">/ <span id="score-total">0</span> correct</span>
+      </div>
+      <p class="score-percent" id="score-percent">0% accuracy</p>
+
+      <div class="topic-breakdown" id="topic-breakdown"><!-- injected by JS --></div>
+
+      <div class="hero-actions results-actions">
+        <button class="btn btn-primary" id="retry-btn">Start a new session</button>
+        <button class="btn btn-ghost" data-nav="home">Back to homepage</button>
+      </div>
+    </section>
+
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>CMA Master Pro — an independent, original study tool.</span>
+    <span>Not affiliated with the Institute of Management Accountants (IMA), Wiley, or Hock International.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
