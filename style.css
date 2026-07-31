@@ -673,7 +673,101 @@ button{ font-family: inherit; cursor: pointer; }
   .header-inner{ flex-wrap: wrap; }
   .nav-cta{ order: 3; width: 100%; text-align: center; }
 }
+/* CMA PROFESSIONAL DASHBOARD */
 
+
+.header-actions{
+
+display:flex;
+gap:10px;
+align-items:center;
+
+}
+
+
+
+.profile-btn{
+
+background:transparent;
+color:var(--paper);
+
+border:1px solid var(--brass);
+
+padding:.55em 1.1em;
+
+border-radius:var(--radius);
+
+font-weight:600;
+
+}
+
+
+
+.dashboard-preview{
+
+background:var(--ink);
+
+padding:2rem;
+
+border-radius:var(--radius);
+
+color:white;
+
+box-shadow:8px 8px 0 var(--brass-tint);
+
+}
+
+
+
+.dashboard-preview h3{
+
+color:white;
+
+}
+
+
+
+.dashboard-header{
+
+display:flex;
+
+justify-content:space-between;
+
+}
+
+
+
+.progress-fill-new{
+
+height:100%;
+
+width:35%;
+
+background:var(--brass);
+
+}
+
+
+
+.mini-card{
+
+margin-top:1rem;
+
+padding:1rem;
+
+background:var(--ink-soft);
+
+border:1px solid rgba(255,255,255,.15);
+
+}
+
+
+
+.mini-card p{
+
+color:#C9D2E0;
+
+}
 @media (prefers-reduced-motion: reduce){
   *{ transition: none !important; scroll-behavior: auto !important; }
   }
