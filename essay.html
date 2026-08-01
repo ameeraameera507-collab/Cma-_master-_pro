@@ -294,27 +294,121 @@ Payback period measures the time required to recover the initial investment.
 
 For CMA decision-making, NPV is generally preferred because it considers the time value of money.
 
-</p>
+</p><script>
 
-`;
+let currentAnswer = "";
+
+let essayData = [];
+
+let currentIndex = 0;
+
+
+
+async function loadPart1(){
+
+    const response = await fetch("essay/part1.json");
+
+    const data = await response.json();
+
+    essayData = data.essays;
+
+    currentIndex = 0;
+
+    displayEssay();
 
 }
+
+
+
+async function loadPart2(){
+
+    const response = await fetch("essay/part2.json");
+
+    const data = await response.json();
+
+    essayData = data.essays;
+
+    currentIndex = 0;
+
+    displayEssay();
+
+}
+
+
+
+
+function displayEssay(){
+
+
+    let essay = essayData[currentIndex];
+
+
+    if(!essay){
+        return;
+    }
+
+
+
+    document.getElementById("essay-title").innerHTML =
+
+    "CMA Essay - " + essay.topic;
+
+
+
+    document.getElementById("essay-question").innerHTML =
+
+    essay.question;
+
+
+
+    currentAnswer = `
+
+    <h3>
+    Model Answer Guide
+    </h3>
+
+
+    <p>
+    A high-scoring CMA answer should include the following key points:
+    </p>
+
+
+    <ul>
+
+    ${essay.answer_points.map(point =>
+
+    `<li>${point}</li>`
+
+    ).join("")}
+
+    </ul>
+
+
+    <h3>
+    Examiner Focus
+    </h3>
+
+
+    <p>
+    Explain the concept clearly, apply it to the business situation,
+    and support your answer with relevant CMA terminology.
+    </p>
+
+    `;
+
+
+}
+
 
 
 
 
 function showAnswer(){
 
-
-document.getElementById("model-answer").innerHTML = currentAnswer;
-
+    document.getElementById("model-answer").innerHTML = currentAnswer;
 
 }
 
 
+
 </script>
-
-
-</body>
-
-</html>
