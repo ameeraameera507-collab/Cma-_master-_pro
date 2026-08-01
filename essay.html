@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -10,102 +12,309 @@
 
 </head>
 
+
 <body>
 
+
 <header class="site-header">
+
 <div class="header-inner">
 
-<h2 style="color:white;">
-CMA Master Pro - Essay Simulator
-</h2>
+<button class="brand" onclick="window.location.href='index.html'">
+
+<span class="brand-mark">
+CMA
+</span>
+
+<span class="brand-word">
+Master Pro
+</span>
+
+</button>
 
 </div>
+
 </header>
+
+
+
 
 
 <main>
 
-<section class="section-block">
+
+<section class="part-hero">
+
 
 <p class="eyebrow">
-CMA USA WRITTEN RESPONSE
+CMA USA WRITTEN RESPONSE SYSTEM
 </p>
 
+
 <h1>
-Essay Practice Simulator
+Essay Simulator
 </h1>
+
+
+<p>
+Practice CMA written response questions using professional exam-style answers,
+structure and evaluation techniques.
+</p>
+
+
+</section>
+
+
+
+
+
+<section class="section-block">
+
+
+<h2>
+Choose Essay Practice
+</h2>
+
+
+<div class="feature-grid">
+
+
+<button class="feature-card" onclick="loadPart1()">
+
+<h3>
+CMA Part 1 Essays
+</h3>
+
+<p>
+Financial Planning, Performance & Analytics written response practice.
+</p>
+
+</button>
+
+
+
+<button class="feature-card" onclick="loadPart2()">
+
+<h3>
+CMA Part 2 Essays
+</h3>
+
+<p>
+Strategic Financial Management written response practice.
+</p>
+
+</button>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section class="section-block">
 
 
 <div class="question-card">
 
-<h2>
-Question 1 - Cost Management
+
+<h2 id="essay-title">
+Select a CMA essay question
 </h2>
 
 
-<p>
-A manufacturing company wants to improve cost accuracy.
-Explain Activity-Based Costing (ABC), its advantages,
-and situations where it should be used.
+
+<p id="essay-question">
+
+Choose Part 1 or Part 2 to start practice.
+
 </p>
 
 
-<textarea 
+
+
+<textarea
 id="answer"
 rows="12"
 style="width:100%;padding:15px;"
-placeholder="Write your CMA essay answer here...">
+placeholder="Write your CMA exam answer here...">
 </textarea>
+
 
 
 <br><br>
 
 
-<button class="btn btn-primary"
-onclick="showAnswer()">
+<button class="btn btn-primary" onclick="showAnswer()">
 
-Submit Essay
+View Model Answer
 
 </button>
 
 
-<div id="model-answer"></div>
+
+
+<div class="feedback-box" id="model-answer">
+
+</div>
+
 
 
 </div>
 
+
 </section>
+
+
 
 </main>
 
 
 
+
+
+
 <script>
 
-function showAnswer(){
 
-document.getElementById("model-answer").innerHTML = `
+let currentAnswer = "";
 
-<h2>Model CMA Answer</h2>
+
+
+function loadPart1(){
+
+
+document.getElementById("essay-title").innerHTML =
+"CMA Part 1 Essay - Cost Management";
+
+
+document.getElementById("essay-question").innerHTML =
+
+"A company is considering implementing Activity-Based Costing. Explain the concept of ABC, advantages, limitations and situations where it provides better information than traditional costing systems.";
+
+
+
+currentAnswer = `
+
+<h3>
+Model Answer Structure
+</h3>
+
 
 <p>
-Activity-Based Costing assigns overhead costs to products
-based on activities that consume resources.
 
-The process includes identifying activities,
-determining cost drivers, calculating activity rates,
-and assigning costs.
+Activity-Based Costing assigns overhead costs to products or services based on activities that consume resources.
 
-Advantages include improved costing accuracy,
-better pricing decisions, and improved operational efficiency.
+</p>
+
+
+<p>
+
+The process involves identifying activities, determining cost drivers,
+calculating activity rates and assigning costs according to usage.
+
+</p>
+
+
+<p>
+
+Advantages include improved cost accuracy, better pricing decisions,
+better product profitability analysis and improved operational decisions.
+
+</p>
+
+
+<p>
+
+ABC is most useful when a company has diverse products,
+high overhead costs and significant differences in resource consumption.
+
 </p>
 
 `;
 
 }
 
+
+
+function loadPart2(){
+
+
+document.getElementById("essay-title").innerHTML =
+"CMA Part 2 Essay - Investment Decisions";
+
+
+document.getElementById("essay-question").innerHTML =
+
+"A company is evaluating a new investment project. Explain capital budgeting methods including NPV, IRR and payback period.";
+
+
+
+currentAnswer = `
+
+<h3>
+Model Answer Structure
+</h3>
+
+
+<p>
+
+Capital budgeting evaluates long-term investment decisions.
+
+</p>
+
+
+<p>
+
+Net Present Value measures the difference between present value of cash inflows and investment cost.
+
+</p>
+
+
+<p>
+
+Internal Rate of Return represents the discount rate where NPV equals zero.
+
+</p>
+
+
+<p>
+
+Payback period measures the time required to recover the initial investment.
+
+</p>
+
+
+<p>
+
+For CMA decision-making, NPV is generally preferred because it considers the time value of money.
+
+</p>
+
+`;
+
+}
+
+
+
+
+function showAnswer(){
+
+
+document.getElementById("model-answer").innerHTML = currentAnswer;
+
+
+}
+
+
 </script>
 
 
 </body>
+
 </html>
