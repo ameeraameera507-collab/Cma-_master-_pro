@@ -1,0 +1,43 @@
+{
+  "part": "CMA Part 1",
+  "title": "Financial Planning, Performance & Analytics",
+  "essays": [
+    {
+      "id": 1,
+      "topic": "Cost Management",
+      "question": "Explain Activity-Based Costing (ABC), its advantages, limitations and situations where it is useful.",
+      "answer_points": [
+        "ABC assigns overhead costs based on activities that consume resources.",
+        "Identify activities and cost drivers.",
+        "Calculate activity rates.",
+        "Assign costs based on actual resource usage.",
+        "Improves pricing and profitability decisions.",
+        "Useful for companies with high overhead and diverse products."
+      ]
+    },
+    {
+      "id": 2,
+      "topic": "Budgeting",
+      "question": "Explain the purpose of budgeting and describe different types of budgets used by organizations.",
+      "answer_points": [
+        "Budgeting helps planning and controlling operations.",
+        "Provides performance targets.",
+        "Supports resource allocation.",
+        "Operating budget includes sales, production and expense budgets.",
+        "Flexible budgets adjust according to activity levels."
+      ]
+    },
+    {
+      "id": 3,
+      "topic": "Performance Management",
+      "question": "Explain responsibility centers and performance measurement techniques.",
+      "answer_points": [
+        "Responsibility centers assign accountability to managers.",
+        "Cost centers control costs.",
+        "Profit centers manage revenue and expenses.",
+        "Investment centers manage assets and returns.",
+        "Common measures include ROI and residual income."
+      ]
+    }
+  ]
+}
