@@ -1,0 +1,41 @@
+{
+  "part": "CMA Part 2",
+  "title": "Strategic Financial Management",
+  "essays": [
+    {
+      "id": 1,
+      "topic": "Investment Decisions",
+      "question": "Explain capital budgeting methods including NPV, IRR and payback period.",
+      "answer_points": [
+        "Capital budgeting evaluates long-term investments.",
+        "NPV measures value created after considering time value of money.",
+        "IRR is the discount rate where NPV equals zero.",
+        "Payback measures recovery time of investment.",
+        "NPV is generally preferred for decision making."
+      ]
+    },
+    {
+      "id": 2,
+      "topic": "Corporate Finance",
+      "question": "Explain the factors affecting a company's capital structure decision.",
+      "answer_points": [
+        "Capital structure involves debt and equity financing.",
+        "Companies consider cost of capital.",
+        "Risk level affects financing decisions.",
+        "Debt provides tax benefits but increases financial risk.",
+        "Optimal structure balances cost and risk."
+      ]
+    },
+    {
+      "id": 3,
+      "topic": "Risk Management",
+      "question": "Explain different types of financial risk and methods used to manage them.",
+      "answer_points": [
+        "Financial risk includes market, credit and liquidity risk.",
+        "Risk identification is the first step.",
+        "Companies use diversification and hedging.",
+        "Risk management protects business value."
+      ]
+    }
+  ]
+}
