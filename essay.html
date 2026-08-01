@@ -396,6 +396,84 @@ function displayEssay(){
 
     ${essay.answer_points.map(point =>
 
+<script>
+
+let currentAnswer = "";
+
+let essayData = [];
+
+let currentIndex = 0;
+
+
+
+async function loadPart1(){
+
+    const response = await fetch("essay/part1.json");
+
+    const data = await response.json();
+
+    essayData = data.essays;
+
+    currentIndex = 0;
+
+    displayEssay();
+
+}
+
+
+
+async function loadPart2(){
+
+    const response = await fetch("essay/part2.json");
+
+    const data = await response.json();
+
+    essayData = data.essays;
+
+    currentIndex = 0;
+
+    displayEssay();
+
+}
+
+
+
+
+function displayEssay(){
+
+
+    let essay = essayData[currentIndex];
+
+
+    if(!essay){
+
+        return;
+
+    }
+
+
+
+    document.getElementById("essay-title").innerHTML =
+    "CMA Essay - " + essay.topic;
+
+
+
+    document.getElementById("essay-question").innerHTML =
+    essay.question;
+
+
+
+    currentAnswer = `
+
+    <h3>
+    Model Answer Guide
+    </h3>
+
+
+    <ul>
+
+    ${essay.answer_points.map(point =>
+
     `<li>${point}</li>`
 
     ).join("")}
@@ -407,10 +485,9 @@ function displayEssay(){
     Examiner Focus
     </h3>
 
-
     <p>
-    Explain the concept clearly, apply it to the business situation,
-    and support your answer with relevant CMA terminology.
+    Explain the concept, apply CMA terminology,
+    and support your answer with business reasoning.
     </p>
 
     `;
@@ -421,13 +498,45 @@ function displayEssay(){
 
 
 
+function nextEssay(){
+
+    if(currentIndex < essayData.length - 1){
+
+        currentIndex++;
+
+        displayEssay();
+
+        document.getElementById("model-answer").innerHTML = "";
+
+    }
+
+}
+
+
+
+
+function previousEssay(){
+
+    if(currentIndex > 0){
+
+        currentIndex--;
+
+        displayEssay();
+
+        document.getElementById("model-answer").innerHTML = "";
+
+    }
+
+}
+
+
+
 
 function showAnswer(){
 
     document.getElementById("model-answer").innerHTML = currentAnswer;
 
 }
-
 
 
 </script>
