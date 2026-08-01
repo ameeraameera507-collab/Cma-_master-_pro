@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CMA Master Pro | Essay Simulator</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="site-header">
+<div class="header-inner">
+
+<h2 style="color:white;">
+CMA Master Pro - Essay Simulator
+</h2>
+
+</div>
+</header>
+
+
+<main>
+
+<section class="section-block">
+
+<p class="eyebrow">
+CMA USA WRITTEN RESPONSE
+</p>
+
+<h1>
+Essay Practice Simulator
+</h1>
+
+
+<div class="question-card">
+
+<h2>
+Question 1 - Cost Management
+</h2>
+
+
+<p>
+A manufacturing company wants to improve cost accuracy.
+Explain Activity-Based Costing (ABC), its advantages,
+and situations where it should be used.
+</p>
+
+
+<textarea 
+id="answer"
+rows="12"
+style="width:100%;padding:15px;"
+placeholder="Write your CMA essay answer here...">
+</textarea>
+
+
+<br><br>
+
+
+<button class="btn btn-primary"
+onclick="showAnswer()">
+
+Submit Essay
+
+</button>
+
+
+<div id="model-answer"></div>
+
+
+</div>
+
+</section>
+
+</main>
+
+
+
+<script>
+
+function showAnswer(){
+
+document.getElementById("model-answer").innerHTML = `
+
+<h2>Model CMA Answer</h2>
+
+<p>
+Activity-Based Costing assigns overhead costs to products
+based on activities that consume resources.
+
+The process includes identifying activities,
+determining cost drivers, calculating activity rates,
+and assigning costs.
+
+Advantages include improved costing accuracy,
+better pricing decisions, and improved operational efficiency.
+</p>
+
+`;
+
+}
+
+</script>
+
+
+</body>
+</html>
